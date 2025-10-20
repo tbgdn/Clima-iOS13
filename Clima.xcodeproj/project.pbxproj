@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D08FC6B2E98624A0055AD77 /* GeocodingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D08FC6A2E98624A0055AD77 /* GeocodingResponse.swift */; };
+		7D08FC6D2E9862CA0055AD77 /* GeocodingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D08FC6C2E9862CA0055AD77 /* GeocodingManager.swift */; };
+		7D08FC6F2E9863270055AD77 /* OpenWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D08FC6E2E9863270055AD77 /* OpenWeatherManager.swift */; };
+		7D08FC712E98664A0055AD77 /* GeocodingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D08FC702E98664A0055AD77 /* GeocodingModel.swift */; };
+		7D1AAA112E9323E6003267F0 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AAA102E9323E6003267F0 /* WeatherManager.swift */; };
+		7D1AAA132E932C01003267F0 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AAA122E932C00003267F0 /* WeatherData.swift */; };
+		7D1AAA152E932FCA003267F0 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AAA142E932FCA003267F0 /* WeatherModel.swift */; };
 		ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B0231BBFAF00365194 /* AppDelegate.swift */; };
 		ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */; };
 		ADAA27B5231BBFAF00365194 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B4231BBFAF00365194 /* WeatherViewController.swift */; };
@@ -19,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D08FC6A2E98624A0055AD77 /* GeocodingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeocodingResponse.swift; path = Clima/GeocodingResponse.swift; sourceTree = SOURCE_ROOT; };
+		7D08FC6C2E9862CA0055AD77 /* GeocodingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeocodingManager.swift; path = Clima/GeocodingManager.swift; sourceTree = SOURCE_ROOT; };
+		7D08FC6E2E9863270055AD77 /* OpenWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpenWeatherManager.swift; path = Clima/OpenWeatherManager.swift; sourceTree = SOURCE_ROOT; };
+		7D08FC702E98664A0055AD77 /* GeocodingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeocodingModel.swift; path = Clima/GeocodingModel.swift; sourceTree = SOURCE_ROOT; };
+		7D1AAA102E9323E6003267F0 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherManager.swift; path = Clima/WeatherManager.swift; sourceTree = SOURCE_ROOT; };
+		7D1AAA122E932C00003267F0 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherData.swift; path = Clima/WeatherData.swift; sourceTree = SOURCE_ROOT; };
+		7D1AAA142E932FCA003267F0 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherModel.swift; path = Clima/WeatherModel.swift; sourceTree = SOURCE_ROOT; };
 		ADAA27AD231BBFAF00365194 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAA27B0231BBFAF00365194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +110,13 @@
 		ADAA27CA231BC3FA00365194 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7D1AAA102E9323E6003267F0 /* WeatherManager.swift */,
+				7D1AAA122E932C00003267F0 /* WeatherData.swift */,
+				7D1AAA142E932FCA003267F0 /* WeatherModel.swift */,
+				7D08FC6A2E98624A0055AD77 /* GeocodingResponse.swift */,
+				7D08FC6C2E9862CA0055AD77 /* GeocodingManager.swift */,
+				7D08FC6E2E9863270055AD77 /* OpenWeatherManager.swift */,
+				7D08FC702E98664A0055AD77 /* GeocodingModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,7 +196,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADAA27B5231BBFAF00365194 /* WeatherViewController.swift in Sources */,
+				7D08FC6F2E9863270055AD77 /* OpenWeatherManager.swift in Sources */,
+				7D08FC6B2E98624A0055AD77 /* GeocodingResponse.swift in Sources */,
+				7D1AAA132E932C01003267F0 /* WeatherData.swift in Sources */,
+				7D08FC712E98664A0055AD77 /* GeocodingModel.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
+				7D1AAA112E9323E6003267F0 /* WeatherManager.swift in Sources */,
+				7D1AAA152E932FCA003267F0 /* WeatherModel.swift in Sources */,
+				7D08FC6D2E9862CA0055AD77 /* GeocodingManager.swift in Sources */,
 				ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,12 +349,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HRXK323W9A;
 				INFOPLIST_FILE = Clima/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.Clima;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbgdn.Clima;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,12 +367,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HRXK323W9A;
 				INFOPLIST_FILE = Clima/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.Clima;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbgdn.Clima;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

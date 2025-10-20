@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GeocodingManager.parseData(_:):GeocodingManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "decoder.decode(GeocodingResponse[].self, from: data)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
