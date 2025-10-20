@@ -25,7 +25,7 @@ extension WeatherManagerDelegate{
 
 struct WeatherManager: OpenWeatherManagerDelegate{
     
-    let weatherUrl = "https://api.openweathermap.org/data/2.5/weather?appid=fdb766a7e3bd40850face2cefd9f8ac5&units=metric"
+    let weatherUrl = "https://api.openweathermap.org/data/2.5/weather?appid=xxx&units=metric"
     var delegate: WeatherManagerDelegate?
     
     func fetchWeather(geocoding: GeocodingModel){

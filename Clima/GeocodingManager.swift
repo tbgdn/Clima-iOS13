@@ -26,7 +26,7 @@ extension GeocodingManagerDelegate{
 
 struct GeocodingManager: OpenWeatherManagerDelegate{
     
-    let geodecodingUrl = "https://api.openweathermap.org/geo/1.0/direct?limit=1&appid=fdb766a7e3bd40850face2cefd9f8ac5&units=metric"
+    let geodecodingUrl = "https://api.openweathermap.org/geo/1.0/direct?limit=1&appid=xxx&units=metric"
     var delegate: GeocodingManagerDelegate?
     
     func fetchGeocodingLocation(cityName: String){
